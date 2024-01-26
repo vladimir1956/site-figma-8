@@ -1,6 +1,69 @@
-
-
+html{
+    box-sizing: border-box;
+}
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+ul{
+    list-style: none;
+}
+@font-face{
+    font-family: 'Inter';
+    src: url('./fonts/InterLight.woff2') format('woff2');
+    font-display: swap;
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Inter';
+    src: url('./fonts/InterMedium.woff2') format('woff2');
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Inter';
+    src: url('./fonts/InterRegular.woff2') format('woff2');
+    font-display: swap;
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Inter';
+    src: url('./fonts/InterSemiBold.woff2') format('woff2');
+    font-display: swap;
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Inter';
+    src: url('./fonts/InterBold.woff2') format('woff2');
+    font-display: swap;
+    font-weight: 700;
+    font-style: normal;
+}
+body{
+    font-family: 'Inter', sans-serif;
+}
+:root{
+    --color-white: #fff;
+    --color-grey:#838383;
+    --color-dark:#1d1d1f;
+}
 .header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
 }
 .container {
 }
@@ -21,4 +84,114 @@
 .nav__item {
 }
 .nav__link {
+}
+.main {
+}
+.hero {
+    padding-top: 500px;
+    background-image: url('./img/bg-header.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container {
+}
+.hero__title {
+    margin: 0;
+}
+.hero__desc {
+}
+.btn {
+}
+.btn--light {
+}
+.about {
+}
+.about__top {
+}
+.about__col {
+}
+.about__list {
+}
+.about__item {
+}
+.comp {
+}
+.comp__value {
+}
+.comp__desc {
+}
+.about__title {
+}
+.about__text {
+}
+.about__desc {
+}
+.about__video {
+}
+.about__play {
+}
+.port {
+}
+.port__list {
+}
+.port-item {
+}
+.port-item__col {
+}
+.port-item__title {
+}
+.port-item__desc {
+}
+.btn--dark {
+}
+.port-item__img {
+}
+.port-item--rev {
+}
+.quote {
+}
+.quote__title {
+}
+.quote__content {
+}
+.quote__text {
+}
+.quote_author {
+}
+.services {
+}
+.services_img {
+}
+.services__list {
+}
+.services-item {
+}
+.services-item__col {
+}
+.services-item__title {
+}
+.services-item__desc {
+}
+.footer {
+}
+.footer__col {
+}
+.logo {
+}
+.footer__social {
+}
+.social {
+}
+.social__item {
+}
+.social__link {
+}
+.footer__title {
+}
+.footer__form {
+}
+.footer__input {
+}
+.footer__btn {
 }
